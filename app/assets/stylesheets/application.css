@@ -32,4 +32,5 @@
  	border-top: solid 1px black;
  	text-align: center;
  	width: 100%;
+ 	background: rgba(0,0,0,0.5);
  }
