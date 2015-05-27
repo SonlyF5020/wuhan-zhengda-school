@@ -15,3 +15,21 @@
  *= require refinery/theme
  *= require_self
  */
+
+ body {
+ 	margin: 0 auto;
+ 	max-width: 50em;
+ }
+
+ body section#page {
+ 	min-height: 30em;
+ }
+
+ body footer {
+ 	position: fixed;
+ 	bottom: 0px;
+ 	left: 0px;
+ 	border-top: solid 1px black;
+ 	text-align: center;
+ 	width: 100%;
+ }
