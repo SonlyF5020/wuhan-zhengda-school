@@ -52,7 +52,6 @@ body header#header>#menu>ul.nav li {
     float: left;
     padding: 10px;
     list-style: none;
-    color: white;
 }
 
 body header#header>#menu>ul.nav li.selected {
@@ -67,7 +66,13 @@ body header#header>#menu>ul.nav li:hover {
 
 body header#header>#menu>ul.nav li a {
     text-decoration: none;
+    color: white;
 }
+
+body header#header>#menu>ul.nav li.selected a {
+	color: #333333;
+}
+
 
 body footer {
     position: fixed;
