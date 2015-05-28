@@ -31,6 +31,8 @@ body header#header>h1 {
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
+    background-color: rgb(247,252,246);
+    margin-bottom: 0px;
 }
 
 body header#header>h1 a {
@@ -41,7 +43,8 @@ body header#header>h1 a {
 body header#header>#menu>ul.nav {
     overflow: auto;
     padding-left: 0px;
-    background-color: cornsilk;
+    background-color: rgb(55,102,170);
+    margin-top: 0px;
 }
 
 body header#header>#menu>ul.nav li {
