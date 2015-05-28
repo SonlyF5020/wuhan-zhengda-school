@@ -61,7 +61,7 @@ body header#header>#menu>ul.nav li.selected {
 
 body header#header>#menu>ul.nav li:hover {
     background-color: #eeeeee;
-    transition: background-color 1s;
+    transition: all 1s;
 }
 
 body header#header>#menu>ul.nav li a {
@@ -71,6 +71,11 @@ body header#header>#menu>ul.nav li a {
 
 body header#header>#menu>ul.nav li.selected a {
 	color: #333333;
+}
+
+body header#header>#menu>ul.nav li:hover a {
+	color: #333333;
+	transition: all 1s;
 }
 
 
