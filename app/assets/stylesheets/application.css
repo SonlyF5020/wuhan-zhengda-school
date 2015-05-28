@@ -26,6 +26,32 @@
  	margin-bottom: 100px;
  }
 
+ body header#header>#menu>ul.nav {
+ 	overflow: auto;
+ 	padding-left: 0px;
+ 	background-color: cornsilk;
+ }
+
+ body header#header>#menu>ul.nav li{
+ 	float: left;
+  	padding: 10px;
+  	list-style: none;
+ }
+
+  body header#header>#menu>ul.nav li.selected {
+  	background-color: #eeeeee;
+  }
+
+  body header#header>#menu>ul.nav li:hover {
+  	background-color: #eeeeee;
+  	transition: background-color 1s;
+  }
+
+  body header#header>#menu>ul.nav li a {
+  	text-decoration: none;
+  	color: #333333;
+  }
+
  body footer {
  	position: fixed;
  	bottom: 0px;
