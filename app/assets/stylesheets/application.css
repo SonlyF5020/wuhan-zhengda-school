@@ -51,10 +51,12 @@ body header#header>#menu>ul.nav li {
     float: left;
     padding: 10px;
     list-style: none;
+    color: white;
 }
 
 body header#header>#menu>ul.nav li.selected {
     background-color: #eeeeee;
+    color: #333333;
 }
 
 body header#header>#menu>ul.nav li:hover {
