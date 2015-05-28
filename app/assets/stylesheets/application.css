@@ -31,7 +31,7 @@ body header#header>h1 {
     background-image: url("http://warlock-course.qiniudn.com/Avatar_yellow.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: right;
+    background-position: right;
     background-color: rgb(247,252,246);
     margin-bottom: 0px;
 }
