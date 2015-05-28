@@ -19,6 +19,7 @@
 body {
     margin: 0 auto;
     max-width: 50em;
+    background-color: rgb(55,102,170);
 }
 
 body section#page {
