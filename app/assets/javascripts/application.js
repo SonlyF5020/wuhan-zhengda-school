@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+var runOnScroll = function(evt) {
+  var menuBar = document.getElementById("menu")
+  var windowScrollTop = window.scrollY;
+  $("#menu").toggleClass('float-menu', windowScrollTop > 181);
+}
+
+window.addEventListener("scroll", runOnScroll);
