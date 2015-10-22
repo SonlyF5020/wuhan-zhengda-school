@@ -98,6 +98,16 @@ body header#header>#menu>ul.nav li:hover a {
 	transition: all 1s;
 }
 
+body img.drop-move {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: 520px;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
 
 body footer {
     position: fixed;

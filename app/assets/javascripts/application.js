@@ -15,10 +15,29 @@
 //= require turbolinks
 //= require_tree .
 
-var runOnScroll = function(evt) {
-  var menuBar = document.getElementById("menu")
-  var windowScrollTop = window.scrollY;
-  $("#menu").toggleClass('float-menu', windowScrollTop > 181);
-}
+$(document).ready(function(){
+  var menuBarOffset = document.getElementById("menu").offsetTop;
+  var cartoonTriggered = false;
 
-window.addEventListener("scroll", runOnScroll);
+  var runOnScroll = function(evt) {
+    var menuBar = document.getElementById("menu")
+    var windowScrollTop = window.scrollY;
+    $("#menu").toggleClass('float-menu', windowScrollTop > menuBarOffset);
+
+    if(!cartoonTriggered && windowScrollTop > menuBarOffset) {
+      cartoonRun();
+      cartoonTriggered = true;
+    }
+  }
+
+  var cartoonRun = function () {
+      $('img.drop-move').fadeIn(1000).animate({top: '500px'}, 2000).delay(1000).animate({left: '-1000px'}, 2000);
+  }
+
+  window.addEventListener("scroll", runOnScroll);
+
+  var cartoonImg = document.createElement('img');
+  cartoonImg.src = 'http://7aro2k.com1.z0.glb.clouddn.com/xiaohuangren_two.png';
+  cartoonImg.className = 'drop-move';
+  document.getElementsByTagName('body')[0].appendChild(cartoonImg);
+});
