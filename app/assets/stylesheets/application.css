@@ -15,11 +15,16 @@
  *= require refinery/theme
  *= require_self
  */
+ html {
+   background-color: bisque;
+ }
 
 body {
-    margin: 0 auto;
-    max-width: 50em;
+    margin: 3em auto;
+    max-width: 55em;
+    padding: 5em;
     background-color: rgb(247,252,246);
+    box-shadow: 5px -3px 7px #888888;
 }
 
 body section#page {
@@ -85,5 +90,4 @@ body footer {
     left: 0px;
     text-align: center;
     width: 100%;
-    background: rgb(221,226,221);
 }
