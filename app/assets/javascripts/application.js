@@ -56,7 +56,7 @@ $(document).ready(function(){
 
   var cartoonImg = document.createElement('img');
   // var tmp = 'http://7aro2k.com1.z0.glb.clouddn.com/moving-xiaohuangren.jpg'
-  cartoonImg.src = 'http://7aro2k.com1.z0.glb.clouddn.com/xiaohuangren_two.png';
+  cartoonImg.src = 'http://7aro2k.com2.z0.glb.clouddn.com/xiaohuangren_two.png';
   cartoonImg.className = 'drop-move';
   document.getElementsByTagName('body')[0].appendChild(cartoonImg);
 });
